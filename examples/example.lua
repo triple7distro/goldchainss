@@ -1,10 +1,15 @@
 -- Example Script for ImGui-Inspired UI Library
 -- Demonstrates all features of the UI Library, SaveManager, and ThemeManager
 
--- Load modules (adjust paths as needed for your executor)
-local UI_LIBRARY = loadstring(readfile("uilibrary.lua"))()
-local SaveManager = loadstring(readfile("savemanager.lua"))()
-local ThemeManager = loadstring(readfile("thememanager.lua"))()
+-- Load modules from GitHub (for use in Roblox executors)
+local UI_LIBRARY = loadstring(game:HttpGet("https://raw.githubusercontent.com/triple7distro/goldchainss/main/src/uilibrary.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/triple7distro/goldchainss/main/src/savemanager.lua"))()
+local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/triple7distro/goldchainss/main/src/thememanager.lua"))()
+
+-- For local development (uncomment below and comment above):
+-- local UI_LIBRARY = loadstring(readfile("../src/uilibrary.lua"))()
+-- local SaveManager = loadstring(readfile("../src/savemanager.lua"))()
+-- local ThemeManager = loadstring(readfile("../src/thememanager.lua"))()
 
 -- ============================================
 -- CREATE MAIN WINDOW

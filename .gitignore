@@ -1,0 +1,35 @@
+# Roblox Studio files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# User configs (keep these local)
+MyScriptConfigs/
+MyScriptThemes/
+UI_Library_Configs/
+UI_Library_Themes/
+
+# Node modules (if any)
+node_modules/
+
+# Build outputs
+dist/
+build/
